@@ -5,5 +5,8 @@
 ### Tuesday
 - [Testing and Rspec] (https://github.com/sf-red-pandas-2016/testing-and-rspec)
 
-### Wednesday 
+### Wednesday
+- [Stack Heap and Data Structures] (https://github.com/salogel42/stack-heap-data-structures)
 
+### Thursday 
+- [Recursion] (https://github.com/sf-red-pandas-2016/recursion)
