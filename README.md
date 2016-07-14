@@ -1,2 +1,9 @@
-# Lecture-Notes
-Lecture Notes from DBC
+# Lecture-Notes 
+
+## Week 1 
+
+### Tuesday
+- [Testing and Rspec] (https://github.com/sf-red-pandas-2016/testing-and-rspec)
+
+### Wednesday 
+
