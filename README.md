@@ -1,3 +1,6 @@
+# Tips and Tricks
+- [Hunter's Tips and Tricks] (https://github.com/bootcoder/tipsNtricks)
+
 # Lecture-Notes 
 
 ## Week 1 
@@ -10,3 +13,5 @@
 
 ### Thursday 
 - [Recursion] (https://github.com/sf-red-pandas-2016/recursion)
+
+
