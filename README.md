@@ -14,4 +14,7 @@
 ### Thursday 
 - [Recursion] (https://github.com/sf-red-pandas-2016/recursion)
 
+## Week 2
 
+### Monday
+- [Ruby Scope](https://github.com/sf-red-pandas-2016/Ruby-Scope)
