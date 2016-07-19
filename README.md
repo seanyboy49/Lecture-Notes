@@ -18,3 +18,6 @@
 
 ### Monday
 - [Ruby Scope](https://github.com/sf-red-pandas-2016/Ruby-Scope)
+
+### Tuesday
+- [inheritance and composition] (https://github.com/sf-red-pandas-2016/inheritance-composition-modules)
