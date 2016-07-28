@@ -25,3 +25,8 @@
 ### Wednesday
 - [Breakout Session on Composition] (https://github.com/sf-red-pandas-2016/orange-tree-2-groves-challenge/pull/6/files)
 - [Cookies Inheritance Example] (https://gist.github.com/alycit/1cbd6dbe2440add98fb2)
+
+## Week 3
+
+### Wednesday
+- [Hunter's Lecture Slides](https://github.com/bootcoder/ar-intro)
