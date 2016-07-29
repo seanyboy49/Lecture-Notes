@@ -30,3 +30,6 @@
 
 ### Wednesday
 - [Hunter's Lecture Slides](https://github.com/bootcoder/ar-intro)
+
+### Thursday
+- [Active Record Associations and Validations](https://github.com/sf-red-pandas-2016/activerecord-associations-and-validations)
