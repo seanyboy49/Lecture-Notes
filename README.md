@@ -1,5 +1,7 @@
 # Tips and Tricks
 - [Hunter's Tips and Tricks] (https://github.com/bootcoder/tipsNtricks)
+- [Reading Materials](https://www.dropbox.com/sh/6qyuixc6u3cgn6e/AADchwo9sgumwgaTM21X4F0Pa?dl=0)
+- [Awesome DBC Recommendations](https://gist.github.com/mbigras/3e45139e88dd60663accdef5d8508733)
 
 # Lecture-Notes 
 
@@ -33,3 +35,11 @@
 
 ### Thursday
 - [Active Record Associations and Validations](https://github.com/sf-red-pandas-2016/activerecord-associations-and-validations)
+
+## Week 4 
+
+### Friday 
+#### Hunter's Brekaout on User Authentication
+- [User Authentication Video](https://youtu.be/CTQdT-GO6-c)
+- [Pull Request of Live Code](https://github.com/sf-red-pandas-2016/user-registration-and-authentication-challenge/pull/7)
+- [DropBox video](https://www.dropbox.com/s/tarorvc6waxx95a/red-pandas-UserAuth.mov?dl=0)
