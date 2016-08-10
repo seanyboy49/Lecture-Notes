@@ -43,3 +43,8 @@
 - [User Authentication Video](https://youtu.be/CTQdT-GO6-c)
 - [Pull Request of Live Code](https://github.com/sf-red-pandas-2016/user-registration-and-authentication-challenge/pull/7)
 - [DropBox video](https://www.dropbox.com/s/tarorvc6waxx95a/red-pandas-UserAuth.mov?dl=0)
+
+## Week 5
+
+### Wednesday
+- [Ajaxifying the news Live Code](https://github.com/sf-red-pandas-2016/ajaxifying-hacker-news-challenge/pull/1)
