@@ -1,6 +1,7 @@
 # Tips and Tricks
 - [Hunter's Tips and Tricks] (https://github.com/bootcoder/tipsNtricks)
 - [Reading Materials](https://www.dropbox.com/sh/6qyuixc6u3cgn6e/AADchwo9sgumwgaTM21X4F0Pa?dl=0)
+- [algo shiznit](http://btholt.github.io/four-semesters-of-cs/)
 - [Awesome DBC Recommendations](https://gist.github.com/mbigras/3e45139e88dd60663accdef5d8508733)
 
 # Lecture-Notes 
