@@ -49,3 +49,8 @@
 
 ### Wednesday
 - [Ajaxifying the news Live Code](https://github.com/sf-red-pandas-2016/ajaxifying-hacker-news-challenge/pull/1)
+
+## Week 7
+
+### Monday
+-[Dope Rails Notes] (https://github.com/devbootcamp/intro_to_rails)
