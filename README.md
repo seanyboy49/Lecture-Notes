@@ -54,3 +54,4 @@
 
 ### Monday
 -[Dope Rails Notes] (https://github.com/devbootcamp/intro_to_rails)
+-[Rails Cheat Sheet](http://courseware.codeschool.com/rails_for_zombies_2_cheatsheets.pdf)
