@@ -1,0 +1,17 @@
+
+### Enumerable Methods - Select
+
+Select returns an array containing all elements of enum for which the given block returns a true value
+
+	found_sodas = @sodas.select do |soda|
+	      soda.brand == soda_brand
+	    end 
+
+
+### reverse_each(*args) { |item| block } → enum
+Builds a temp array and traverses the array in reverse order 
+a.reverse_each { |object| p object}
+
+### partition { |obj| block } → [ true_array, false_array ] click to toggle s
+a = [ "cat", "mouse", "dog", "elephant", "giraffe", "iphone", "headphones"]
+a.partition {|object| object[0] < "d"}
