@@ -33,8 +33,10 @@ This file contains a number of front-end interview questions that can be used wh
     * **Core Principles**
     * Basic content and functionality should be accessible to all web browsers
     * Enhanced layout/behaviour is provided by externally linked CSS and JS
+
   > [Graceful Degradation](https://en.wikipedia.org/wiki/Fault_tolerance) is the web strategy from which Progressive Enhancement evolved. It is a practice where designers create Web pages for the latest browsers that would also work well in older versions of the browser software. It should allow the page to "degrade" or remain presentable even if certain technologies assumed by the design are not present, without being jarring to the user.
-  > The key different is that PE is a reversal of GD: a basic markup document is created, geared towards the lowest common denominator of browser software functionality, and then the designer adds in functionality or enhancements to the presentation and behaviour of the page. 
+  
+  > The key different is that PE is a reversal of GD: a basic markup document is created, geared towards the lowest common denominator of browser software functionality, and then the designer adds in functionality or enhancements to the presentation and behaviour of the page.
 
 
 * How would you optimize a website's assets/resources?
