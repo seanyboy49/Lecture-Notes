@@ -1,8 +1,11 @@
 # Tips and Tricks
+- [Nick's Repo on CS](https://github.com/sinwav/cs-resources)
 - [Hunter's Tips and Tricks] (https://github.com/bootcoder/tipsNtricks)
-- [Reading Materials](https://www.dropbox.com/sh/6qyuixc6u3cgn6e/AADchwo9sgumwgaTM21X4F0Pa?dl=0)
-- [Algorithm Primer](http://btholt.github.io/four-semesters-of-cs/)
-- [Technical Interview Prep](https://github.com/TechnicalInterviewPrep)
+- [Books and Reading Materials](https://www.dropbox.com/sh/6qyuixc6u3cgn6e/AADchwo9sgumwgaTM21X4F0Pa?dl=0)
+- [4 Semester of CS](http://btholt.github.io/four-semesters-of-cs/)
+- [Technical Interview Prep from HR](https://github.com/TechnicalInterviewPrep)
+- [Front-End Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+- [5 Key Learnings from the Post Boot Camp Grad](https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.cykk2ls2w)
 
 # Notes from DBC
 - [Testing and Rspec] (https://github.com/sf-red-pandas-2016/testing-and-rspec)
