@@ -1,4 +1,4 @@
-# Tips and Tricks
+# Quick Links
 - [Nick's Repo on CS](https://github.com/sinwav/cs-resources)
 - [Hunter's Tips and Tricks] (https://github.com/bootcoder/tipsNtricks)
 - [Books and Reading Materials](https://www.dropbox.com/sh/6qyuixc6u3cgn6e/AADchwo9sgumwgaTM21X4F0Pa?dl=0)
@@ -6,6 +6,7 @@
 - [Technical Interview Prep from HR](https://github.com/TechnicalInterviewPrep)
 - [Front-End Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 - [5 Key Learnings from the Post Boot Camp Grad](https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.cykk2ls2w)
+- [Big-0-Cheat-Sheet](https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=bigocheatsheet&oq=bigo&aqs=chrome.2.69i57j69i59j0l4.2909j0j1)
 
 # Notes from DBC
 - [Testing and Rspec] (https://github.com/sf-red-pandas-2016/testing-and-rspec)

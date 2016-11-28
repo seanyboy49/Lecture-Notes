@@ -40,6 +40,24 @@ This file contains a number of front-end interview questions that can be used wh
 
 
 * How would you optimize a website's assets/resources?
+  > Basic Optimization Rules: decrease download sizes and make fewer HTTP requests.
+  * Name your assets
+  * Use a content delivery network
+  * Host assets on different domains but reduce DNS lookup
+  * Place assets on a cookie-free domain and split assets among domains
+  * Use CSS Sprites
+  * Disable etags
+  * Resize images before they are uploaded to HTML to reduce page load time.
+  * Enable compression
+  * Avoid landing page redirects
+  * [Minify resources](https://github.com/mrclay/minify)
+  * [Optimize images](https://tinypng.com/)
+  * Optimize CSS Delivery
+  * Prioritize visible content
+  * Remove render-blocking JS
+  * Use asynchronous scripts
+  * Use [server-side optimizers](https://developers.google.com/speed/pagespeed/module/)
+
 * How many resources will a browser download from a given domain at a time?
   * What are the exceptions?
 * Name 3 ways to decrease page load (perceived or actual load time).
