@@ -2,7 +2,8 @@
 Imperative vs. Declarative
 
 ### Imperative: How
-```
+
+```js
 var numbers = [4,2,3,6]
 var total = 0
 for (var i = 0; i < numbers.length; i++) {
@@ -12,12 +13,15 @@ for (var i = 0; i < numbers.length; i++) {
 Keeping track of state (total)
 
 ### Declarative: What
-```
+
+```js
 var numbers = [4,2,3,6]
 numbers.reduce(function(previous, current)
 return previous + current)
 ```
+
 #### Benefits of Declarative Code
+
 * No state to keep track of
 * Less bugs
 * More readable code
@@ -26,6 +30,7 @@ return previous + current)
 # Setting up your first React Component with NPM, Babel and Webpack
 
 ## Setting up React: CLI Commands
+
 `npm init`
 `npm install --save react react-dom`
 `npm install --save-dev html-webpack-plugin webpack webpack-dev-server babel-{core,loader} babel-preset-react`
@@ -43,7 +48,7 @@ ES6 syntax uses native JS to create a class which extends the React Component.
 It takes a constructor function.
 No commas are necessary between functions in ES6.
 
-```
+```js
 class FriendsContainer extends React.Component {
   constructor(props) {
     super(props);
@@ -63,7 +68,7 @@ class FriendsContainer extends React.Component {
 ```
 ShowList is a nested component. It takes props passed down to it from its parent component and renders them into an unordered list.
 
-```
+```js
 
 class ShowList extends React.Component {
   constructor(props) {
@@ -84,12 +89,13 @@ class ShowList extends React.Component {
   }
 }
 ```
+
 There are many ways of writing a component.
 
 ### React.createClass
 Props are being passed down to ProfilePic and must be accessed via the `this` keyword.
 
-```
+```js
 var ProfilePic = React.createClass({
   render: function() {
     return (
@@ -103,7 +109,7 @@ var ProfilePic = React.createClass({
 
 A bit more verbose than the createClass method. But this also works without the constructor function.
 
-```
+```js
 class ProfilePic extends React.Component {
   constructor(props) {
     super(props);
@@ -119,7 +125,7 @@ class ProfilePic extends React.Component {
 ### ES5 Function With Explicit Return
 Old JS way of declaring a function. Note absence of `this` keyword when referring to props.
 
-```
+```js
 const ProfilePic = function(props) {
   return <img src={props.imageURL} style={{height: 100, width: 100}}/>
 }
@@ -127,8 +133,10 @@ const ProfilePic = function(props) {
 
 
 ### ES6 Function With Implicit Return
-`const ProfilePic = props => <img src={props.imageURL} style={{height: 100, width: 100}}/>
-`
+
+```js
+const ProfilePic = props => <img src={props.imageURL} style={{height: 100, width: 100}}/>
+```
 
 ## FIRST
 
@@ -146,11 +154,12 @@ Testable
 
 What if we wanted to get access to data between opening/closing elements?
 
-```
+```js
 <Clock>
   12:49 AM
 </Clock>
 ```
+
 Calling `this.props.children` on our Clock component will evaluate to 12:49 AM
 
 ## "this" differences and binding
@@ -161,7 +170,7 @@ Calling `this.props.children` on our Clock component will evaluate to 12:49 AM
 
 In this code, when `changeURL` gets called, React will apply the right execution context to the method.
 
-```
+```js
 const Link = React.createClass({
   changeURL: function() {
     window.location.replace(this.props.href)
@@ -182,7 +191,7 @@ const Link = React.createClass({
 
 ES6 classes require that you bind the right context. To avoid inline repetition, it is best to bind in the constructor function.
 
-```
+```js
 class Link extends React.Component {
   constructor(props) {
     super(props);
@@ -214,15 +223,16 @@ We don't have to pass the router down as props. We can just grab it off contextT
 
 When using `extends React.component` contextTypes must be declared statically outside of the class definition.
 
-```
+```js
 PromptContainer.contextTypes = {
       router: React.PropTypes.object.isRequired
     }
 ```
+
 You can push new paths to the router but must first grab it dynamically by accessing the context.
 Paths can be pushed in as an object with pathname and queries, or simply a path.
 
-```
+```js
 /...
 if (this.props.routeParams.playerOne) {
   this.context.router.push({
@@ -237,6 +247,7 @@ if (this.props.routeParams.playerOne) {
 }
 .../
 ```
+
 ## hashHistory vs. browserHistory
 [Medium Post on Routing](https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.bc9brs4gv)
 If you would like a cleaner address, or you are using this in production, you may want to look into browserHistory vs hashHistory. When using browserHistory you must have a server that will always return your server at any route, for example if using nodejs, a configuration like the following (from the docs) would work:
@@ -246,7 +257,7 @@ If you would like a cleaner address, or you are using this in production, you ma
 Import the styles object into a component.
 If we add this property to a component, the background of that component will become transparent.
 
-```
+```js
 const styles = {
   transparentBg: {
     background: 'transparent'
